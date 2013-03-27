@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801E0DC317025DB200CF1F18 /* cb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E0DC217025DB200CF1F18 /* cb_bg.png */; };
+		801E0DC917026F9200CF1F18 /* fortune_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E0DC817026F9200CF1F18 /* fortune_logo.png */; };
+		801E0DD1170274F800CF1F18 /* cbIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 801E0DD0170274F800CF1F18 /* cbIcon.png */; };
 		8038319C17025CA6000E0A9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8038319B17025CA6000E0A9B /* UIKit.framework */; };
 		8038319E17025CA6000E0A9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8038319D17025CA6000E0A9B /* Foundation.framework */; };
 		803831A017025CA6000E0A9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8038319F17025CA6000E0A9B /* CoreGraphics.framework */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		801E0DC217025DB200CF1F18 /* cb_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_bg.png; sourceTree = "<group>"; };
+		801E0DC817026F9200CF1F18 /* fortune_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fortune_logo.png; sourceTree = "<group>"; };
+		801E0DD0170274F800CF1F18 /* cbIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbIcon.png; sourceTree = "<group>"; };
 		8038319817025CA6000E0A9B /* CrystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8038319B17025CA6000E0A9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8038319D17025CA6000E0A9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,9 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		801E0DC117025D9600CF1F18 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				801E0DC817026F9200CF1F18 /* fortune_logo.png */,
+				801E0DC217025DB200CF1F18 /* cb_bg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		8038318F17025CA6000E0A9B = {
 			isa = PBXGroup;
 			children = (
+				801E0DD0170274F800CF1F18 /* cbIcon.png */,
 				803831A117025CA6000E0A9B /* CrystalBall */,
 				8038319A17025CA6000E0A9B /* Frameworks */,
 				8038319917025CA6000E0A9B /* Products */,
@@ -83,6 +99,7 @@
 		803831A117025CA6000E0A9B /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				801E0DC117025D9600CF1F18 /* Images */,
 				803831AA17025CA6000E0A9B /* AppDelegate.h */,
 				803831AB17025CA6000E0A9B /* AppDelegate.m */,
 				803831B317025CA6000E0A9B /* ViewController.h */,
@@ -163,6 +180,9 @@
 				803831B017025CA6000E0A9B /* Default@2x.png in Resources */,
 				803831B217025CA6000E0A9B /* Default-568h@2x.png in Resources */,
 				803831B817025CA6000E0A9B /* ViewController.xib in Resources */,
+				801E0DC317025DB200CF1F18 /* cb_bg.png in Resources */,
+				801E0DC917026F9200CF1F18 /* fortune_logo.png in Resources */,
+				801E0DD1170274F800CF1F18 /* cbIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +318,7 @@
 				803831BD17025CA6000E0A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

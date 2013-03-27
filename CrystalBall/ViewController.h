@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView*   headerView;
+@property (strong, nonatomic) IBOutlet UILabel*       displayMessage;
+@property (strong, nonatomic) IBOutlet UIButton*      fortuneButton;
+
+-(IBAction)   fortuneButtonPressed:(id)sender;
+-(IBAction)     resetButtonPressed:(id)sender;
+
 @end
